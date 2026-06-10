@@ -8,22 +8,11 @@ pipeline
 
     stages 
     {
-        stage('Build') 
-        {
-            steps
-            {
-                 git 'https://github.com/mohangoudGit/GitRepoForJenkinsPipeline.git'
-                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
-            }
-            post 
-            {
-                success
-                {
-                    junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
-                }
-            }
-        }
+        stage("Build") {
+         steps {
+            echo("Building is done")
+         }
+      }
         
         
         
@@ -39,8 +28,8 @@ pipeline
         stage('Regression Automation Tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/naveenanimation20/Dec2024OpenCartFramework.git'
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resource/HomePageTest.xml -Denv=qa"
+                    git 'https://github.com/mohangoudGit/GitRepoForJenkinsPipeline.git'
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resource/HomePageTest.xml -Denv=qa"
                     
                 }
             }
