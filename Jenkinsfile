@@ -56,7 +56,7 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
-                                  reportDir: 'target/chaintest', 
+                                  reportDir: 'target', 
                                   reportFiles: 'Index.html', 
                                   reportName: 'HTMLRegressionChainTestReport', 
                                   reportTitles: ''])
