@@ -40,12 +40,12 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/naveenanimation20/Dec2024OpenCartFramework.git'
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml -Denv=qa"
+                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resource/HomePageTest.xml -Denv=qa"
                     
                 }
             }
         }
-                
+            
      
         stage('Publish Allure Reports') {
            steps {
