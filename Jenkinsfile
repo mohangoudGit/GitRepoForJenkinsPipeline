@@ -50,14 +50,7 @@ pipeline
             }
         }
      
-     stage('Verify ChainTest Report') 
-     { steps
-      { 
-      sh 'pwd' 
-      sh 'ls -la'
-       sh 'ls -la target' 
-       sh 'find . -name "chaintest"' }
-        }   
+    
         
         stage('Publish ChainTest Report'){
             steps{
