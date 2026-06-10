@@ -58,12 +58,21 @@ pipeline
                                   keepAll: true, 
                                   reportDir: 'target', 
                                   reportFiles: 'Index.html', 
-                                  reportName: 'HTMLRegressionChainTestReport.html', 
+                                  reportName: 'HTML Regression ChainTestReport.html', 
                                   reportTitles: ''])
             }
         }
       	
      
+     stage('Publish TestNG Report') 
+     
+     { steps
+     
+      { testNG( reportFilenamePattern: '**/testng-results.xml' ) 
+      
+      }
+      
+       }
             
         stage("Deploy to Stage"){
             steps{
@@ -78,7 +87,9 @@ pipeline
                 echo("deploy to PROD")
             }
         }
-        
+
+              
         
     }
 }
+
