@@ -95,9 +95,9 @@ pipeline
              always{
               
                  
-                 mail to: 'jenkins.frameworkdemo@gmail.com',
-                subject: "Status of Job: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
-                body: "The build completed with status: ${currentBuild.currentResult}.\nView log details here: ${env.BUILD_URL}"
+        //         mail to: 'jenkins.frameworkdemo@gmail.com',
+          //      subject: "Status of Job: ${env.JOB_NAME} - Build #${env.BUILD_NUMBER}",
+            //    body: "The build completed with status: ${currentBuild.currentResult}.\nView log details here: ${env.BUILD_URL}"
             
                emailext (
               
@@ -106,9 +106,9 @@ pipeline
            //body: """Status: ${currentBuild.currentResult}Check console output here: ${env.BUILD_URL}""",
            // body: '${FILE, path="target/surefire-reports/index.html"}',
         
-	         to: 'jenkins.frameworkdemo@gmail.com',
+	       //  to: 'jenkins.frameworkdemo@gmail.com',
 	    mimeType: 'text/html',
-	    subject: "Test Report for Build #${env.BUILD_NUMBER}",
+	   // subject: "Test Report for Build #${env.BUILD_NUMBER}",
 	    // This reads the workspace file and places its raw contents directly into the email body
 	    body: '${FILE, path="target/surefire-reports/emailable-report.html"}'
         
