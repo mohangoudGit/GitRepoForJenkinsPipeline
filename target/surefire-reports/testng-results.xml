@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-10T16:54:10 IST" name="Suite" finished-at="2026-06-10T16:55:03 IST" duration-ms="53751">
+  <suite started-at="2026-06-10T17:36:33 IST" name="Suite" finished-at="2026-06-10T17:37:20 IST" duration-ms="46841">
     <groups>
     </groups>
-    <test started-at="2026-06-10T16:54:10 IST" name="Test" finished-at="2026-06-10T16:55:03 IST" duration-ms="53751">
+    <test started-at="2026-06-10T17:36:33 IST" name="Test" finished-at="2026-06-10T17:37:20 IST" duration-ms="46841">
       <class name="com.qa.hvcom.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.hvcom.tests.HomePageTest@7bca6fac]" started-at="2026-06-10T16:54:10 IST" name="setup" finished-at="2026-06-10T16:54:30 IST" duration-ms="20293" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.hvcom.tests.HomePageTest@5c60b0a0]" started-at="2026-06-10T17:36:34 IST" name="setup" finished-at="2026-06-10T17:36:47 IST" duration-ms="13267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="HomePageTitletest()[pri:1, instance:com.qa.hvcom.tests.HomePageTest@7bca6fac]" started-at="2026-06-10T16:54:30 IST" name="HomePageTitletest" finished-at="2026-06-10T16:54:36 IST" duration-ms="5675" status="PASS">
+        <test-method signature="HomePageTitletest()[pri:1, instance:com.qa.hvcom.tests.HomePageTest@5c60b0a0]" started-at="2026-06-10T17:36:47 IST" name="HomePageTitletest" finished-at="2026-06-10T17:36:53 IST" duration-ms="5722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTitletest -->
-        <test-method signature="goToSolutionsTest()[pri:2, instance:com.qa.hvcom.tests.HomePageTest@7bca6fac]" started-at="2026-06-10T16:54:36 IST" name="goToSolutionsTest" finished-at="2026-06-10T16:54:37 IST" duration-ms="402" status="PASS">
+        <test-method signature="goToSolutionsTest()[pri:2, instance:com.qa.hvcom.tests.HomePageTest@5c60b0a0]" started-at="2026-06-10T17:36:53 IST" name="goToSolutionsTest" finished-at="2026-06-10T17:36:54 IST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToSolutionsTest -->
-        <test-method signature="goToServicesTest()[pri:3, instance:com.qa.hvcom.tests.HomePageTest@7bca6fac]" started-at="2026-06-10T16:54:37 IST" name="goToServicesTest" finished-at="2026-06-10T16:54:48 IST" duration-ms="10898" status="PASS">
+        <test-method signature="goToServicesTest()[pri:3, instance:com.qa.hvcom.tests.HomePageTest@5c60b0a0]" started-at="2026-06-10T17:36:54 IST" name="goToServicesTest" finished-at="2026-06-10T17:37:04 IST" duration-ms="10770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToServicesTest -->
-        <test-method signature="goToPartnersTest()[pri:4, instance:com.qa.hvcom.tests.HomePageTest@7bca6fac]" started-at="2026-06-10T16:54:48 IST" name="goToPartnersTest" finished-at="2026-06-10T16:55:03 IST" duration-ms="15774" status="PASS">
+        <test-method signature="goToPartnersTest()[pri:4, instance:com.qa.hvcom.tests.HomePageTest@5c60b0a0]" started-at="2026-06-10T17:37:04 IST" name="goToPartnersTest" finished-at="2026-06-10T17:37:20 IST" duration-ms="15844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToPartnersTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hvcom.tests.HomePageTest@7bca6fac]" started-at="2026-06-10T16:55:03 IST" name="tearDown" finished-at="2026-06-10T16:55:03 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hvcom.tests.HomePageTest@5c60b0a0]" started-at="2026-06-10T17:37:20 IST" name="tearDown" finished-at="2026-06-10T17:37:20 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
