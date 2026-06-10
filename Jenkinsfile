@@ -73,17 +73,6 @@ pipeline
         
         
         
-        stage('Publish sanity ChainTest Report'){
-            steps{
-                     publishHTML([allowMissing: false,
-                                  alwaysLinkToLastBuild: false, 
-                                  keepAll: true, 
-                                  reportDir: '/target/chaintest', 
-                                  reportFiles: 'Index.html', 
-                                  reportName: 'HTML Sanity ChainTest Report', 
-                                  reportTitles: ''])
-            }
-        }
         
         
         
