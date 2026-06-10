@@ -62,7 +62,7 @@ pipeline
                                   reportTitles: ''])
             }
         }
-        
+      
         stage("Deploy to Stage"){
             steps{
                 echo("deploy to Stage")
