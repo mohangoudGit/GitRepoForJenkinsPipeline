@@ -1,0 +1,7 @@
+com\qa\hvcom\utils\JavascrpitUtil.class
+com\qa\hvcom\utils\CsvUtil.class
+com\qa\hvcom\base\BaseTest.class
+com\qa\hvcom\tests\LoginPageTest.class
+com\qa\hvcom\tests\HomePageTest.class
+com\qa\hvcom\utils\ExcelUtil.class
+com\qa\hvcom\utils\ElementUtil.class
