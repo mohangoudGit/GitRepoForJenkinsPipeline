@@ -78,12 +78,13 @@ pipeline
                      publishHTML([allowMissing: false,
                                   alwaysLinkToLastBuild: false, 
                                   keepAll: true, 
-                                  reportDir: 'target/chaintest', 
+                                  reportDir: '/target/chaintest', 
                                   reportFiles: 'Index.html', 
                                   reportName: 'HTML Sanity ChainTest Report', 
                                   reportTitles: ''])
             }
         }
+        
         
         
         stage("Deploy to PROD"){
