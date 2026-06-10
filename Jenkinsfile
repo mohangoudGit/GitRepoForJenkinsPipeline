@@ -58,7 +58,7 @@ pipeline
                                   keepAll: true, 
                                   reportDir: '/target/chaintest', 
                                   reportFiles: 'Index.html', 
-                                  reportName: 'HTML Regression ChainTest Report', 
+                                  reportName: 'HTMLRegressionChainTestReport', 
                                   reportTitles: ''])
             }
         }
