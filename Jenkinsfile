@@ -110,7 +110,7 @@ pipeline
 	    mimeType: 'text/html',
 	   // subject: "Test Report for Build #${env.BUILD_NUMBER}",
 	    // This reads the workspace file and places its raw contents directly into the email body
-	    body: '${FILE, path="target/surefire-reports/emailable-report.html"}'
+	    body: '${FILE, path="target/surefire-reports/emailable-report.html"}',"""Status: ${currentBuild.currentResult}Check console output here: ${env.BUILD_URL}"""
         
         
         
