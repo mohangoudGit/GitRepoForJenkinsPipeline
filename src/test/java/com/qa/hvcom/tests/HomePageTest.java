@@ -69,7 +69,7 @@ public class HomePageTest extends BaseTest{
 		homepage.goToServices();
 		//	we are able to access this method
 		//System.out.println(Text);
-		Assert.assertEquals(Text,"Support Portal");
+		Assert.assertEquals(Text,"Sapport Portal");
 		//Assert.assertEquals(Text,AppConstants.PRODUCT_NAME);
 
 	}
